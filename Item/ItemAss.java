@@ -1,4 +1,5 @@
-import java.util.Scanner;
+package Item;
+
 import static java.lang.Boolean.TRUE;
 public class ItemAss {
     String name;
