@@ -63,7 +63,9 @@ public class ItemApp {
             switch (constructor){
                 case 1: items[i]=new ItemClass();
                 break;
-                case 2: items[i]=new ItemClass(name,category,price);
+
+                case 2:     //if(gst==6){
+                            items[i]=new ItemClass(name,category,price);
                 break;
                 case 3: items[i]=new ItemClass(name,category,price,isTaxable,gst);
                 break;
